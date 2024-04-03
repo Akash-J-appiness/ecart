@@ -19,7 +19,7 @@ body {
 }
 
 #navbar .nav-link {
-    color: white;
+    color: black;
     background-color: aqua;
 }
 
@@ -205,4 +205,29 @@ li a {
 
 .basketTotal {
     width: 20%;
+}
+
+img.widths {
+    width: 110px;
+    padding: 10px;
+}
+
+button.delete-item {
+    color: black;
+    border: none;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+.quantity1 {
+    padding-left: 5px;
+}
+button.delete-item:hover {
+    background-color: white;
+    color: red;
+}
+
+img.imagewd {
+    width: 170px;
+    height: 135px;
 }
